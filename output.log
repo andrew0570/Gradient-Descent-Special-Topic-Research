@@ -1,0 +1,125 @@
+Iris Dataset Neural Network Example
+-----------------------------------
+
+Iris Dataset (150samples):
+
+	id	SepalLengthCm	SepalWidthCm	PetalLengthCm	PetalWidthCm		Setosa	Versicolor	Virginica
+	0	5.1		3.5		1.4		0.2		-	1	0		0
+	1	4.9		3		1.4		0.2		-	1	0		0
+	2	4.7		3.2		1.3		0.2		-	1	0		0
+	3	4.6		3.1		1.5		0.2		-	1	0		0
+	4	5		3.6		1.4		0.2		-	1	0		0
+	5	5.4		3.9		1.7		0.4		-	1	0		0
+	6	4.6		3.4		1.4		0.3		-	1	0		0
+	7	5		3.4		1.5		0.2		-	1	0		0
+	8	4.4		2.9		1.4		0.2		-	1	0		0
+	9	4.9		3.1		1.5		0.1		-	1	0		0
+
+
+Created Neural Network Object
+
+Training Model
+	epoch - 0, mse - 0.277225
+	epoch - 1000, mse - 0.183246
+	epoch - 2000, mse - 0.123723
+	epoch - 3000, mse - 0.114114
+	epoch - 4000, mse - 0.106718
+	epoch - 5000, mse - 0.0936702
+	epoch - 6000, mse - 0.0706541
+	epoch - 7000, mse - 0.0458168
+	epoch - 8000, mse - 0.0308683
+	epoch - 9000, mse - 0.0234417
+	epoch - 10000, mse - 0.0194642
+	epoch - 11000, mse - 0.0170708
+	epoch - 12000, mse - 0.0154861
+	epoch - 13000, mse - 0.0143597
+	epoch - 14000, mse - 0.0135161
+	epoch - 15000, mse - 0.0128594
+	epoch - 16000, mse - 0.0123328
+	epoch - 17000, mse - 0.0119006
+	epoch - 18000, mse - 0.0115394
+	epoch - 19000, mse - 0.0112326
+	epoch - 20000, mse - 0.0109689
+	epoch - 21000, mse - 0.0107395
+	epoch - 22000, mse - 0.0105383
+	epoch - 23000, mse - 0.0103603
+	epoch - 24000, mse - 0.0102018
+	epoch - 25000, mse - 0.0100596
+	epoch - 26000, mse - 0.00993139
+	epoch - 27000, mse - 0.00981498
+	epoch - 28000, mse - 0.00970872
+	epoch - 29000, mse - 0.00961122
+	epoch - 30000, mse - 0.00952133
+	epoch - 31000, mse - 0.00943808
+	epoch - 32000, mse - 0.00936065
+	epoch - 33000, mse - 0.00928838
+	epoch - 34000, mse - 0.00922066
+	epoch - 35000, mse - 0.00915701
+	epoch - 36000, mse - 0.00909699
+	epoch - 37000, mse - 0.00904022
+	epoch - 38000, mse - 0.00898638
+	epoch - 39000, mse - 0.00893519
+	epoch - 40000, mse - 0.00888639
+	epoch - 41000, mse - 0.00883977
+	epoch - 42000, mse - 0.00879512
+	epoch - 43000, mse - 0.00875227
+	epoch - 44000, mse - 0.00871107
+	epoch - 45000, mse - 0.00867137
+	epoch - 46000, mse - 0.00863305
+	epoch - 47000, mse - 0.008596
+	epoch - 48000, mse - 0.00856012
+	epoch - 49000, mse - 0.00852531
+	epoch - 50000, mse - 0.00849149
+	epoch - 51000, mse - 0.00845859
+	epoch - 52000, mse - 0.00842653
+	epoch - 53000, mse - 0.00839526
+	epoch - 54000, mse - 0.00836471
+	epoch - 55000, mse - 0.00833483
+	epoch - 56000, mse - 0.00830557
+	epoch - 57000, mse - 0.0082769
+	epoch - 58000, mse - 0.00824876
+	epoch - 59000, mse - 0.00822113
+	epoch - 60000, mse - 0.00819396
+	epoch - 61000, mse - 0.00816723
+	epoch - 62000, mse - 0.0081409
+	epoch - 63000, mse - 0.00811494
+	epoch - 64000, mse - 0.00808934
+	epoch - 65000, mse - 0.00806407
+	epoch - 66000, mse - 0.0080391
+	epoch - 67000, mse - 0.00801442
+	epoch - 68000, mse - 0.00799001
+	epoch - 69000, mse - 0.00796584
+	epoch - 70000, mse - 0.00794191
+	epoch - 71000, mse - 0.0079182
+	epoch - 72000, mse - 0.0078947
+	epoch - 73000, mse - 0.00787138
+	epoch - 74000, mse - 0.00784825
+	epoch - 75000, mse - 0.00782529
+	epoch - 76000, mse - 0.00780248
+	epoch - 77000, mse - 0.00777982
+	epoch - 78000, mse - 0.0077573
+	epoch - 79000, mse - 0.00773491
+	epoch - 80000, mse - 0.00771264
+	epoch - 81000, mse - 0.00769049
+	epoch - 82000, mse - 0.00766844
+	epoch - 83000, mse - 0.0076465
+	epoch - 84000, mse - 0.00762465
+	epoch - 85000, mse - 0.0076029
+	epoch - 86000, mse - 0.00758123
+	epoch - 87000, mse - 0.00755963
+	epoch - 88000, mse - 0.00753812
+	epoch - 89000, mse - 0.00751667
+	epoch - 90000, mse - 0.00749529
+	epoch - 91000, mse - 0.00747397
+	epoch - 92000, mse - 0.00745272
+	epoch - 93000, mse - 0.00743152
+	epoch - 94000, mse - 0.00741037
+	epoch - 95000, mse - 0.00738927
+	epoch - 96000, mse - 0.00736821
+	epoch - 97000, mse - 0.00734721
+	epoch - 98000, mse - 0.00732624
+	epoch - 99000, mse - 0.00730531
+Finished Training
+
+Final Evaluation
+	final MSE loss = 0.00730531
